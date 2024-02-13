@@ -11,7 +11,7 @@ body{
     background-size: cover;
 }
 .header{
-    background: linear-gradient(45deg,#a52a2a,#0000cd,#a52a2a);
+    background: linear-gradient(45deg,#b37ec0,#69c4c7,#c882da);
     justify-content: center;
     display: flex;
     padding: 5px;
@@ -30,10 +30,10 @@ body{
 }
 .AddTask > input[type="text"]{
     width: 90%;
-    color: #333;
+    color: #383838;
     border: none;
     border-bottom: 2px solid gray;
-    background: linear-gradient(45deg,#ffebcd,#ffd39b,#6495ed,#dc143c);
+    background: linear-gradient(45deg,#658797,#498dbb,#525bad,#5c2fb1);
     border-radius: 5px;
     padding: 10px;
     font-size: 25px;
@@ -77,16 +77,16 @@ ol li{
     width: 100%;
     padding: 20px;
     margin: 5px 0;
-    background: linear-gradient(45deg,#ff7f50,#ff4040,#b8860b,#a52a2a,#fff);
+    background: linear-gradient(45deg,#a68fca,#cfa5da,#bfa8d8,#7db4c5,#4499d1);
     font-size: 22px;
     counter-increment: my-counter;
 }
 ol.Completed li{
-    background: linear-gradient(45deg,#7fff00,#6495ed,#00ffff,#458b00,#fff);
+    background: linear-gradient(45deg,#a68fca,#cfa5da,#bfa8d8,#7db4c5,#4499d1);
 }
 ol li::before{
     content: counter(my-counter);
-    background: #231381;
+    background: #4a29a3;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -109,7 +109,7 @@ li button{
 }
 button:hover{
     box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+    0 0 15px rgb(37, 230, 230), 0 0 20px rgb(59, 219, 219),
+    0 0 10px rgb(25, 226, 226), 0 0 50px rgb(87, 175, 175);
     transition: 1s;
 }
